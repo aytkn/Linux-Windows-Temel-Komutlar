@@ -1,1 +1,0 @@
-# Linux-Windows-Temel-Komutlar
