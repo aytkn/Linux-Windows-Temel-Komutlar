@@ -1,45 +1,38 @@
 ## LINUX TEMEL KOMUTLAR
 
-+-------------------------------+----------------------------------------------------------+
-| Komut                         | Açıklama                                                 |
-+===============================+==========================================================+
-| cp                            | Kopyalama                                                |
-+-------------------------------+----------------------------------------------------------+
+| Komut  			    | Açıklama                                                       	|
+|-----------------------------------|-------------------------------------------------------------------|
+| cp     			    | Kopyalama                                                      	|
+| rm     			    | Dosya silme                                                    	|
+| rm -rf 			    | Klasör silme                                                   	|
+| cp -rf 			    | Klasör kopyalama                                               	|
+| grep   			    | İçeriği filtreleyerek getirme                                  	|
+| ls -a 			    | Gizli klasörleri görme                                         	|
+| ls -al 			    | Gizli klasörleri listeli görme                                 	|
+| ls -ln 			    | İzinleri görme                                                 	|
+| ln -s  			    | “ln -s /root/dosya_adı  /root/yeni_yolu”  -> Kısayol oluşturma 	|
+| tracert, pathping                 | Hop atlama                                                        |
+| history                           | Önceden girilen komutları getirir.                                |
+| cat                               | Metin belgesi içindekileri okuma                                  |
+| man                               | “man program_adı” -> Bir programın nasıl kullanıldığını gösterir. |
+| ps                                | Çalışan prosesler                                                 |
+| kill                              | kill -9 PID  -> Çalışan 9 numaralı prosesi sonlandırır.           |
+| htop                              | İşlemci tüketimini gösterir.                                      |
+| more                              | Terminal ekranına belirli miktarda çıktı gösterir.                |
+| uniq                              | Aynı olan kelimeleri teke düşürür.                                |
+| sort                              | Harf sıralamasına göre düzenler                                   |
+| halt                              | Ekranı kilitler, geri dönüşü olmaz                                |
+| tail -f log_dosyası               | Dosyanın sonunu getirir ve günceller.                             |
+| locate                            | Aranan dosyanın yolunu bulma.  updatedb ile güncellemen gerekir.  |
+|                                   |                                                                   |
+|                                   |                                                                   |
+|                                   |                                                                   |
+|                                   |                                                                   |
+|                                   |                                                                   |
+|                                   |                                                                   |
+|                                   |                                                                   |
 
-| Komut  | Açıklama                                                       |
-|--------|----------------------------------------------------------------|
-| cp     | Kopyalama                                                      |
-| rm     | Dosya silme                                                    |
-| rm -rf | Klasör silme                                                   |
-| cp -rf | Klasör kopyalama                                               |
-| grep   | İçeriği filtreleyerek getirme                                  |
-| ls -a  | Gizli klasörleri görme                                         |
-| ls -al | Gizli klasörleri listeli görme                                 |
-| ls -ln | İzinleri görme                                                 |
-| ln -s  | “ln -s /root/dosya_adı  /root/yeni_yolu”  -> Kısayol oluşturma |
 
-
-| Komut  | Açıklama                                                       |   |   |   |   |   |   |
-|--------|----------------------------------------------------------------|---|---|---|---|---|---|
-| cp     | Kopyalama                                                      |   |   |   |   |   |   |
-| rm     | Dosya silme                                                    |   |   |   |   |   |   |
-| rm -rf | Klasör silme                                                   |   |   |   |   |   |   |
-| cp -rf | Klasör kopyalama                                               |   |   |   |   |   |   |
-| grep   | İçeriği filtreleyerek getirme                                  |   |   |   |   |   |   |
-| ls -a  | Gizli klasörleri görme                                         |   |   |   |   |   |   |
-| ls -al | Gizli klasörleri listeli görme                                 |   |   |   |   |   |   |
-| ls -ln | İzinleri görme                                                 |   |   |   |   |   |   |
-| ln -s  | “ln -s /root/dosya_adı  /root/yeni_yolu”  -> Kısayol oluşturma |   |   |   |   |   |   |
-
-cp		=	Kopyalama
-rm		=	Dosya silme
-rm -rf		=	Klasör silme
-cp -rf		=	Klasör kopyalama
-grep		=	İçeriği filtreleyerek getirme
-ls -a		=	Gizli klasörleri görme
-ls -al		=	Gizli klasörleri listeli görme
-ls -ln		=	İzinleri görme
-ln -s		=	“ln -s /root/dosya_adı  /root/yeni_yolu”  -> Kısayol oluşturma
 tracert, pathping  =   Hop atlama
 history		=	Önceden girilen komutları getirir.
 cat		=	Metin belgesi içindekileri okuma
