@@ -1,8 +1,8 @@
-##WINDOWS TEMEL KOMUTLAR
+## WINDOWS TEMEL KOMUTLAR
 
-#####Yerel kullanıcı ekleme
+##### Yerel kullanıcı ekleme
       net user (kullanıcı adı) (parola) /add  
-####Domain kullanıcısı ekleme
+#### Domain kullanıcısı ekleme
       net user (kullanıcı adı) (parola) /DOMAIN
       net user (kullanıcı adı) (parola) /DOMAIN
 Kullanıcı silme
