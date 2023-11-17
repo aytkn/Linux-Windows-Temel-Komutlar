@@ -34,13 +34,34 @@
 |                                   |                                                                   |
 
 
+### find
+find  /etc -type f -name “*.py” -perm -u+x -mtime -5 | xargs ls -ls
 
-
+|------------------|-------------------------------------------------------------------------|
+| find             | Aranan dizin ya da dosya bulma                                          |
+| find .           | = Bulunduğu dizin altını arar.                                          |
+| name             | = Tırnak içine aranacak dosya yazılır.                                  |
+| type             | = Dosya tipi. f dosya , d dizin                                         |
+| perm             | = İzin Yetkileri. Örnekte kullanıcının çalıştırılabilir dosya yetkileri |
+| mtime            | = Gün cinsinden değer. Örnekte son 5 gün                                |
+| atime            | = Dakika cinsinden değer.                                               |
+| size             | = veri boyutuna göre bulma  -size -10M (10megabayt tan küçük olanlar)   |
+| find . | wc -l   | = Kaç satır bulduğunu gösterir.                                         |
+|                  |                                                                         |
+|                  |                                                                         |
+|                  |                                                                         |
+|                  |                                                                         |
+|                  |                                                                         |
+|                  |                                                                         |
+|                  |                                                                         |
+|                  |                                                                         |
+|                  |                                                                         |
+|                  |                                                                         |
 
 
 
 find		=	Aranan dizin ya da dosya bulma 
-find  /etc -type f -name “*.py” -perm -u+x -mtime -5 | xargs ls -ls
+
 find . 		= Bulunduğu dizin altını arar.
 name 		= Tırnak içine aranacak dosya yazılır.
 type 		= Dosya tipi. f dosya , d dizin
