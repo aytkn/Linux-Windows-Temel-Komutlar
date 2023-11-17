@@ -60,7 +60,7 @@
 | mtime            | Gün cinsinden değer. Örnekte son 5 gün                                |
 | atime            | Dakika cinsinden değer.                                               |
 | size             | veri boyutuna göre bulma  -size -10M (10megabayt tan küçük olanlar)   |
-| `find . | wc -l` | Kaç satır bulduğunu gösterir.                                         |
+| `find . /n| wc -l` | Kaç satır bulduğunu gösterir.                                         |
 
 
 
