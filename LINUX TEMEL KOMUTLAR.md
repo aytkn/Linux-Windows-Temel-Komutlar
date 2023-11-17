@@ -6,6 +6,19 @@
 | cp                            | Kopyalama                                                |
 +-------------------------------+----------------------------------------------------------+
 
+
+| Komut  | Açıklama                                                       |   |   |   |   |   |   |
+|--------|----------------------------------------------------------------|---|---|---|---|---|---|
+| cp     | Kopyalama                                                      |   |   |   |   |   |   |
+| rm     | Dosya silme                                                    |   |   |   |   |   |   |
+| rm -rf | Klasör silme                                                   |   |   |   |   |   |   |
+| cp -rf | Klasör kopyalama                                               |   |   |   |   |   |   |
+| grep   | İçeriği filtreleyerek getirme                                  |   |   |   |   |   |   |
+| ls -a  | Gizli klasörleri görme                                         |   |   |   |   |   |   |
+| ls -al | Gizli klasörleri listeli görme                                 |   |   |   |   |   |   |
+| ls -ln | İzinleri görme                                                 |   |   |   |   |   |   |
+| ln -s  | “ln -s /root/dosya_adı  /root/yeni_yolu”  -> Kısayol oluşturma |   |   |   |   |   |   |
+
 cp		=	Kopyalama
 rm		=	Dosya silme
 rm -rf		=	Klasör silme
