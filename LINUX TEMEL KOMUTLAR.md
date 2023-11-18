@@ -103,8 +103,8 @@
 | `cat /etc/shadow	cat /etc/shadow | grep “root:”`  | Parolaları görme                                 |
 | `cat /etc/passwd | grep “x:0”`                     | En yüksek yetkili kullanıcıyı görme              |
 | `cat /etc/shadow | grep “root:” | cut -d “$” -f4 | cut -d “:” -f1` | Parola özetini görme             |
-| `cat /var/log/secure | grep userdel`               | Silinmiş kullanıcıları görme                     |
+| `cat /var/log/secure "pipe işareti" grep userdel`        | Silinmiş kullanıcıları görme                     |
 | /var/log/secure                             | Oluşturulmuş ve silinmiş kullanıcıların loglarını tutar |
-| `authconfig --test | grep hashing`                 | Sistemin şifreleme algoritmasını bulma           |  
+| authconfig --test | grep hashing                 | Sistemin şifreleme algoritmasını bulma           |  
 | home/kullanıcı ad/.ssh/known_hosts dosyası          | En son ssh bağlantısı yapılan yeri görme        |
 | ssh -oHdstKeyAlgorithms=+ssh-dss root@192.168.1.24 | Ssh hatası verirse                               |
