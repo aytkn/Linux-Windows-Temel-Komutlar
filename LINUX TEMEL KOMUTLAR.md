@@ -100,7 +100,7 @@
 | passwd kullanıcı_adı                               | Parola oluşturma                                 |
 | chmod +777 dosya_adı                               | Yetkilendirme                                    |
 | cat /etc/passwd                                    | Kullanıcıları görme                              |
-| `cat /etc/shadow	cat /etc/shadow "pipe işareti" grep “root:”`  | Parolaları görme                                 |
+| `cat /etc/shadow	  | Parolaları görme                                 |
 | `cat /etc/passwd "pipe işareti" grep “x:0”`                     | En yüksek yetkili kullanıcıyı görme              |
 | `cat /etc/shadow "pipe işareti" grep “root:” | cut -d “$” -f4 | cut -d “:” -f1` | Parola özetini görme             |
 | `cat /var/log/secure "pipe işareti" grep userdel`        | Silinmiş kullanıcıları görme                     |
